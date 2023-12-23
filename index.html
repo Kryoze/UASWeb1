@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autobiografi</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .jumbotron {
+      background-color: #007bff;
+      color: #fff;
+      padding: 2rem;
+      margin-bottom: 0;
+    }
+
+    .profile-img {
+      max-width: 200px;
+      border-radius: 50%;
+    }
+
+    .section-heading {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .skill-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .achievement-list {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Autobiografi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#profile">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Pendidikan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievements">Pencapaian</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center" id="profile">
+    <img src="A8 (1).jpeg" alt="Profil" class="profile-img">
+    <h1 class="display-4">Alfian Bayu Nur Aji</h1>
+    <p class="lead">Saat ini saya adalah seorang Microwave Engineer dan mahasiswa Teknik Informatika semester lima di Universitas Pamulang dengan minat di bidang Telekomunikasi & Komputasi Teknologi. Saya sangat tertarik untuk mempelajari hal-hal baru dan selalu berusaha untuk melakukan yang terbaik dalam segala hal yang saya lakukan.</p>
+  </div>
+
+  <!-- Content -->
+  <div class="container">
+    <!-- Skill Section -->
+    <div class="row" id="skills">
+      <div class="col-lg-12">
+        <h2 class="section-heading">Skill</h2>
+        <ul class="skill-list">
+          <li>Teamwork • Collaborative Problem Solving • Microwave Engineering • Microsoft Office • Computer Network Operations • Packet Tracer • Low Level Programming • Windows Server • Linux Server</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row" id="education">
+      <div class="col-lg-12">
+        <h2 class="section-heading">Pendidikan</h2>
+        <p><strong>Universitas Pamulang</strong> - Teknik Informatika (2021 - Sekarang)</p>
+        <p><strong>SMK 3 Perguruan Cikini</strong> - Teknik Komputer dan Jaringan (2016 - 2019)</p>
+      </div>
+    </div>
+
+    <div class="row" id="achievements">
+      <div class="col-lg-12">
+        <h2 class="section-heading">Pencapaian</h2>
+        <ul class="achievement-list">
+          <li>Third Best Graduate - SMK 3 Perguruan Cikini (2018)</li>
+          <li>Configuring Computer Networking Equipment Certificate of Competency - Badan Nasional Sertifikasi Profesi (2019)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row" id="soal1">
+      <div class="col-lg-12">
+        <h2 class="section-heading">Soal No.1</h2>
+          <p>Jelaskan cara kerja Website serta jelaskan hubungan antara Web Server, Domain , dan Hosting!</p>
+          <p>Cara kerja website secara singkat adalah sebagai berikut:
+            <ul>
+            <li>Ketika pengguna mengetikkan nama domain di browser, browser akan menghubungi DNS (Domain Name System) untuk mencari alamat IP yang sesuai dengan nama domain tersebut.</li>
+            <li>DNS akan mengembalikan alamat IP yang terkait dengan nama domain ke browser.</li>
+            <li>Browser akan mengirimkan permintaan HTTP (Hypertext Transfer Protocol) ke web server yang memiliki alamat IP tersebut.</li>
+            <li>Web server akan memproses permintaan HTTP dan mengirimkan respon berupa halaman web yang diminta, beserta file-file pendukung seperti gambar, CSS, JavaScript, dll.</li>
+            <li>Browser akan menampilkan halaman web yang diterima dari web server kepada pengguna.</li>
+          </ul>
+            Hubungan antara web server, domain, dan hosting adalah sebagai berikut:
+            <ul>
+            <li>Web server adalah tempat di mana hosting berada. Hosting menyediakan ruang penyimpanan untuk website dan data-data lainnya.</li>
+            <li>Domain adalah alamat yang digunakan untuk mengakses website yang disimpan di hosting. Domain memudahkan pengguna untuk mengingat dan menemukan website tanpa harus menghafal alamat IP.</li>
+            <li>Hosting dan domain saling berhubungan melalui DNS, yang bertugas untuk menghubungkan nama domain dengan alamat IP web server.</li></ul></p>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
